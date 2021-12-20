@@ -1,0 +1,160 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Summary of experience
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+
+
+      <h2 class="govuk-heading-m">Roedean School</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Job Title
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Registrar: Communications, Partnerships and Projects
+          </dd>
+
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Dates
+          </dt>
+          <dd class="govuk-summary-list__value">
+            September 2017 to present
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Key skills
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Designing content, communicating, executing end-to-end journeys
+          </dd>
+        </div>
+
+
+      </dl>
+
+      <h2 class="govuk-heading-m">Ebb&Flow
+</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Job Title
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Lecturer
+          </dd>
+
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Dates
+          </dt>
+          <dd class="govuk-summary-list__value">
+            April 2020 to March 2021
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Key skills
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Teaching, presenting, content creation
+          </dd>
+        </div>
+
+      </dl>
+
+      <h2 class="govuk-heading-m">Educatus
+</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Job Title
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Education Consultant & Researcher
+          </dd>
+
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Dates
+          </dt>
+          <dd class="govuk-summary-list__value">
+            October 2015 to September 2017
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Key skills
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Giving guidance, managing relationships, explaining end-to-end journeys
+          </dd>
+        </div>
+
+      </dl>
+
+      <h2 class="govuk-heading-m">Chichester High School for Girls
+</h2>
+
+      <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Job Title
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Teacher of Secondary English
+          </dd>
+
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Dates
+          </dt>
+          <dd class="govuk-summary-list__value">
+            July 2010 to October 2012
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Key skills
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Teaching, lesson planning, communicating
+          </dd>
+        </div>
+
+      </dl>
+
+      <form action="/qualifications" method="post" novalidate>
+
+        <input type="hidden" name="answers-checked" value="true">
+
+        <button type="submit" class="govuk-button" data-module="govuk-button">
+          View professional qualifications
+        </button>
+
+      </form>
+      <p>
+        Back to <a href="index">Alexa Barlow — Homepage</a>
+        </p>
+
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Experience: Chichester High
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+      Professional Experience
+      </h1>
+
+        <h2 class="govuk-heading-l">
+          Chichester High School for Girls
+        </h2>
+        <h2 class="govuk-heading-m">
+        Teacher of Secondary English<span class="govuk-caption-m">(July 2010 to October 2012)</span>
+        </h2>
+
+        <ul class="govuk-list govuk-list--bullet">
+          <li>
+            Teaching children aged 11-18.
+          </li>
+          <li>
+            Creating resources and lesson plans for very different age ranges and subjects.
+          </li>
+          <li>
+            Communicating with parents when issues needed to be discussed or escalted.
+          </li>
+          <li>
+            Surviving!
+          </li>
+
+          <br />
+      <form class="form" action="experience-summary" method="post">
+          <button class="govuk-button" data-module="govuk-button">
+            Summary
+          </button>
+      </form>
+
+
+    </div>
+  </div>
+
+{% endblock %}
